@@ -1,0 +1,16 @@
+baseURL = 'https://tiagotadeu.com/'
+locale = 'pt-br'
+title = 'Tiago Tadeu'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'   # respeita o modo claro/escuro do sistema
+
+[[menu.main]]
+  name = 'Início'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 2
